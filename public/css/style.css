@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.banner{
+    width: 100%;
+    margin-bottom: -5px;
+}
+img{
+    width: 100%;
+}
+
+/* Estilos de la descripcion menu*/
+.descripcion-menu{
+    width: 100%;
+    display: flex;
+    background-color: #f19a13;
+    margin-bottom: -5px;
+}
+.desc-menu-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc-menu-texto p{
+    margin-bottom: 50px;
+    font: 20px bold Arial, sans-serif;
+    width: 40%;
+    text-align: center;
+}
+.desc-menu-texto button{
+    width: 150px;
+    height: 40px;
+    background-color: #272323;
+    color: #f19a13;
+    border: none;
+    font: 20px bolder Arial, sans-serif;
+}
+.desc-menu-img{
+    width: 50%;
+    
+}
+
+/* Estilo del Separador*/
+.separador{
+    height: 200px;
+    background-color: #272323;
+}
+.separador p{
+    font: 210px bolder;
+    text-align: center;
+    line-height: 200px;
+    color: #7A6360;
+}
+
+/* Estilos de sobre nosotros*/
+.sobre-nosotros{
+    width: 100%;
+    display: flex;
+    background-color: #f19a13;
+    margin-bottom: -5px;
+}
+
+.sobre-nosotros-texto{
+    width: 50%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sobre-nosotros-texto p{
+    margin-bottom: 50px;
+    font: 20px bold Arial, sans-serif;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.sobre-nosotros button{
+    width: 200px;
+    height: 40px;
+    background-color: #272323;
+    color: #f19a13;
+    border: none;
+    font: 20px bolder Arial, sans-serif;
+}
+
+.sobre-nosotros-img{
+    width: 50%;
+    order: 1;
+}
+
+/* Estilo del footer */
+footer{
+    height: 200px;
+    background-color: #272323;
+    
+}
+footer li{
+    justify-content: center;
+    width: 20%;
+}
+.pie-pagina{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.pie-pagina p{
+    font: 25px bold Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #f19a13;
+}
+
+.face-logo, .ig-logo{
+    width: 100px;
+}

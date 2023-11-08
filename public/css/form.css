@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/assets/img/papas.jpg') no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+    background-color: #272323;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #f5f5dc;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #F19A13;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
